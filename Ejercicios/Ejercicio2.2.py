@@ -15,7 +15,7 @@ class Planeta:
     self.volumen = volumen
     self.diametro = diametro
     self.distanciaSol = distanciaSol
-    self.tipo = tipo
+    self.tipo = tipo.value
     self.esObservable = esObservable
 
   def imprimir(self):
