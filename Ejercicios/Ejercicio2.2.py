@@ -1,4 +1,6 @@
-class tipoPlaneta:
+from enum import Enum
+
+class tipoPlaneta(Enum):
 
   GASEOSO = "GASEOSO"
   TERRESTRE = "TERRESTRE"
